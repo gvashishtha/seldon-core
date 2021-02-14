@@ -11,7 +11,7 @@ class MyModel(object):
         print("Initializing")
 
         # Test that file I/O works
-        with open("dummy_input.txt", 'r') as file:
+        with open("/data/dummy_input.txt", 'r') as file:
             print(file.readlines())
 
     def predict(self,X,features_names):
